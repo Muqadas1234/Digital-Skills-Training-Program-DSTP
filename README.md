@@ -1,56 +1,54 @@
-﻿# 🚀 Digital Skills Training Program (DSTP) - Flutter Projects
+﻿# Digital Skills Training Program (DSTP) - Flutter Projects
 
-Welcome to the **Digital Skills Training Program (DSTP)** project repository! This monorepo houses mobile application projects developed with Flutter and Dart, showcasing core concepts of cross-platform mobile development, UI design, state management, and CRUD architecture.
-
----
-
-## 📂 Projects in this Repository
-
-| Project Folder | Description | Tech Highlights |
-| :--- | :--- | :--- |
-| **[`my_calculator`](./my_calculator)** | Modern dark-themed calculator app for everyday arithmetic operations. | Responsive custom keypad, dynamic color palette, arithmetic state handling. |
-| **[`to_do_app`](./to_do_app)** | Full-featured Student Management / To-Do CRUD application. | Add, update, delete, and list student records with dynamic routing and forms. |
+This repository contains Flutter projects developed as part of the Digital Skills Training Program (DSTP). Each project is organized in its own folder with dedicated code and documentation.
 
 ---
 
-## 📁 Repository Structure
+## Projects in this Repository
+
+| Project Folder | Description |
+| :--- | :--- |
+| [my_calculator](./my_calculator) | Calculator app for basic arithmetic operations. |
+| [to_do_app](./to_do_app) | To-do app for creating, updating, and managing tasks. |
+
+---
+
+## Repository Structure
 
 ```text
 DSTP-TRAINING-PROGRAM/
-├── .gitignore                   # Universal gitignore for Flutter and OS artifacts
-├── README.md                    # Root repository documentation
-├── my_calculator/               # Project 1: Calculator Application
-│   ├── lib/                     # Calculator UI and calculation logic
-│   ├── pubspec.yaml             # Calculator dependencies
-│   └── README.md                # Calculator-specific documentation
-└── to_do_app/                   # Project 2: Student Manager / To-Do Application
-    ├── lib/                     # Student CRUD views and state logic
-    ├── pubspec.yaml             # App dependencies
-    └── README.md                # To-Do app documentation
+├── .gitignore
+├── README.md
+├── my_calculator/
+│   ├── lib/
+│   ├── pubspec.yaml
+│   └── README.md
+└── to_do_app/
+    ├── lib/
+    ├── pubspec.yaml
+    └── README.md
 ```
 
 ---
 
-## ⚡ Quick Start
+## Getting Started
 
-Each project is a standalone Flutter application. To run any project:
+To run any project:
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone https://github.com/Muqadas1234/Digital-Skills-Training-Program-DSTP.git
    cd Digital-Skills-Training-Program-DSTP
    ```
 
-2. **Choose a project directory:**
+2. Navigate to the desired project folder:
    ```bash
-   # For Calculator:
    cd my_calculator
-
-   # Or for Student Manager / To-Do App:
+   # or
    cd to_do_app
    ```
 
-3. **Install dependencies and run:**
+3. Install packages and launch:
    ```bash
    flutter pub get
    flutter run
@@ -58,7 +56,7 @@ Each project is a standalone Flutter application. To run any project:
 
 ---
 
-## 👤 Author
+## Author
 
-**Muqadas Akram**  
+Muqadas Akram  
 Digital Skills Training Program (DSTP)

@@ -1,82 +1,69 @@
-﻿# 📱 Flutter Calculator App
+﻿# Calculator App
 
-A sleek, intuitive, and modern calculator application built with Flutter and Dart as part of the **Digital Skills Training Program (DSTP)**.
-
----
-
-## 🌟 Overview
-
-This application provides a smooth and responsive everyday calculation experience inspired by modern mobile calculator interfaces. It features an eye-friendly dark theme with high-contrast colored keys, making it both aesthetic and functional for quick arithmetic tasks.
+A clean and responsive calculator application built with Flutter and Dart as part of the Digital Skills Training Program (DSTP).
 
 ---
 
-## ✨ Features
+## Overview
 
-- **Standard Arithmetic Operations**: Perform addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`).
-- **Modulo Calculations**: Quick remainder/percentage calculations using `%`.
-- **Division by Zero Protection**: Gracefully displays an `error` state rather than crashing when dividing by zero.
-- **Clear Display (`AC`)**: Reset calculations and start fresh with a single tap.
-- **Decimal Support**: Perform calculations with floating-point numbers.
-- **Clean UI & Color Coding**:
-  - 🟠 High-contrast orange keys for operational actions (`+`, `-`, `*`, `/`, `%`, `=`, `AC`).
-  - 🔘 Subdued grey keys for numeric input (`0` - `9`, `.`).
-  - ⚫ Minimalist deep black background matching modern system dark modes.
-- **Responsive Layout**: Custom modular keypad widgets designed to fit neatly across various screen sizes.
+This calculator is designed for everyday calculations with an intuitive dark-themed interface. It provides quick, responsive keypad input and handles standard mathematical operations reliably.
 
 ---
 
-## 🛠️ Project Structure
+## Features
+
+- Basic Arithmetic: Addition (+), subtraction (-), multiplication (*), and division (/).
+- Modulo Operation: Remainder calculations using %.
+- Clear Function: Reset the calculator screen with AC button.
+- Decimal Support: Work with decimal numbers easily.
+- Safe Division: Displays error if division by zero is attempted.
+- Dark Theme: High-contrast buttons on a dark background for easy reading.
+
+---
+
+## Project Structure
 
 ```text
 my_calculator/
 ├── lib/
-│   ├── calculator.dart          # Core calculator UI, keypad grid, and arithmetic logic
-│   ├── main.dart                # Application entry point and theme setup
+│   ├── calculator.dart
+│   ├── main.dart
 │   └── utils/
-│       └── app_colors.dart      # Reusable color constants (Black, White, Grey, Orange)
-├── pubspec.yaml                 # Dependencies and project metadata
-└── README.md                    # Project documentation
+│       └── app_colors.dart
+├── pubspec.yaml
+└── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed on your machine:
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (version `^3.11.4` or higher)
-- [Dart SDK](https://dart.dev/get-dart)
-- An emulator (Android/iOS) or a connected physical device / Chrome for web testing.
+- Flutter SDK (^3.11.4 or higher)
+- Dart SDK
+- An emulator, browser, or connected mobile device
 
-### Installation & Running
+### Installation & Run
 
-1. **Navigate to the calculator directory:**
+1. Open the calculator directory:
    ```bash
    cd my_calculator
    ```
 
-2. **Fetch project dependencies:**
+2. Install dependencies:
    ```bash
    flutter pub get
    ```
 
-3. **Launch the application:**
+3. Run the application:
    ```bash
    flutter run
    ```
 
 ---
 
-## 🧰 Tech Stack
+## Author
 
-- **Framework**: Flutter
-- **Language**: Dart
-- **Design Paradigm**: Material Design with custom modular components
-
----
-
-## 👤 Author
-
-Developed by **Muqadas Akram**  
+Muqadas Akram  
 Digital Skills Training Program (DSTP)

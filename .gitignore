@@ -1,0 +1,27 @@
+﻿# Archives and Temporary files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Flutter / Dart Build and Cache
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/

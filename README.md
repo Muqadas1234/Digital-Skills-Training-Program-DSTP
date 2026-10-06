@@ -1,4 +1,4 @@
-﻿# Digital Skills Training Program (DSTP) -Flutter Projects
+Flutter Projects
 
 This repository contains Flutter projects. Each project is organized in its own folder with dedicated code and documentation.
 

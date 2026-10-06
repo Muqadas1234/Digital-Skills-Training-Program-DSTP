@@ -1,6 +1,6 @@
-﻿# Digital Skills Training Program (DSTP) - Flutter Projects
+﻿# Digital Skills Training Program (DSTP) -Flutter Projects
 
-This repository contains Flutter projects developed as part of the Digital Skills Training Program (DSTP). Each project is organized in its own folder with dedicated code and documentation.
+This repository contains Flutter projects. Each project is organized in its own folder with dedicated code and documentation.
 
 ---
 
@@ -16,7 +16,7 @@ This repository contains Flutter projects developed as part of the Digital Skill
 ## Repository Structure
 
 ```text
-DSTP-TRAINING-PROGRAM/
+
 ├── .gitignore
 ├── README.md
 ├── my_calculator/
@@ -37,8 +37,8 @@ To run any project:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Muqadas1234/Digital-Skills-Training-Program-DSTP.git
-   cd Digital-Skills-Training-Program-DSTP
+   git clone https://github.com/Muqadas1234/flutter_projects.git
+  
    ```
 
 2. Navigate to the desired project folder:
